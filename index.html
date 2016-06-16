@@ -9,14 +9,20 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <form id="groceries">
+            <label for="items">Enter an item that you need from the grocery</label>
+            <input id="item" type="text"></input>
+            <button class="btn" id="addItem" type="submit" >Add item</button>
+            <button class="btn" id="submitList" type="submit">Submit grocery list</button>
+          </form>
+          <ul id="output">
 
-    <form id="groceries">
-      <label for="items">Enter an item that you need from the grocery</label>
-      <input id="item" type="text"></input>
-      <button class="btn" id="addItem" type="submit" >Add item</button>
-      <button class="btn" id="submitList" type="submit">Submit grocery list</button>
-    </form>
-    <ul id="output">
-    </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
